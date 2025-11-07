@@ -33,9 +33,27 @@
             padding: 20px 30px;
             border-radius: 15px;
             box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+            text-align: left;
         }
         strong {
             color: #2e7d32;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 15px;
+        }
+        th, td {
+            border: 1px solid #888;
+            padding: 8px 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #4a90e2;
+            color: white;
+        }
+        td {
+            background-color: rgba(255,255,255,0.8);
         }
     </style>
 </head>
@@ -52,6 +70,35 @@
         <p><strong>Address:</strong> Visakhapatnam, Andhra Pradesh</p>
         <p><strong>Semester:</strong> 5th</p>
         <p><strong>CGPA:</strong> 6.76</p>
+
+        <h3>Subjects in Current Semester:</h3>
+        <table>
+            <tr>
+                <th>S.No</th>
+                <th>Subject Name</th>
+                <th>Subject Code</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Cloud Microservices</td>
+                <td>INT363</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Cloud Architecture and Implementation II</td>
+                <td>INT364</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Fundamentals of DevOps</td>
+                <td>INT331</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Verbal Ability</td>
+                <td>PEV301</td>
+            </tr>
+        </table>
     </div>
 
     <p>Thanks for visiting my page 😊</p>
