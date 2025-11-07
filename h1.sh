@@ -15,6 +15,13 @@
         h1 {
             color: #4a90e2;
         }
+        img {
+            width: 300px;
+            height: auto;
+            border-radius: 20px;
+            margin-top: 20px;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+        }
         p {
             font-size: 18px;
             margin: 10px 0;
@@ -36,6 +43,8 @@
     <h1>Hi! Hello 👋</h1>
     <h2>Welcome to my page!</h2>
     <p>I'm <strong>Janisha</strong>, currently pursuing my <strong>Bachelor of Technology (B.Tech)</strong> at <strong>Lovely Professional University (LPU)</strong>.</p>
+
+    <img src="SAVE_20240125_212603.jpg" alt="Photo of Janisha">
 
     <div class="info">
         <p><strong>Name:</strong> Janisha</p>
